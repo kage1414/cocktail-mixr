@@ -1,0 +1,13 @@
+[ignore]
+.*node_modules/resolve/test/resolver/malformed_package_json/package.json
+[include]
+./src
+[libs]
+
+[lints]
+all=warn
+untyped-type-import=error
+sketchy-null-bool=off
+[options]
+react.runtime=automatic
+[strict]

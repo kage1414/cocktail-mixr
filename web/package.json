@@ -1,0 +1,28 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-flow": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.18.0",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "flow-bin": "^0.181.1",
+    "html-webpack-plugin": "^5.5.0",
+    "source-map-loader": "^4.0.0",
+    "style-loader": "^3.3.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
